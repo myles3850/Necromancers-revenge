@@ -3,12 +3,12 @@ class human:
     Health = 10
     Armour = 100.0
 
-    def life (self, Experience, Health):
+    def life(self, Experience, Health):
         lifeXP = human.Experience / 100
 
         lifepoints = lifeXP * human.Health
-        
+
         print(lifepoints)
-    
+
     def armour():
-        print(human.Armour '%')
+        print(human.Armour, '%')
